@@ -19,3 +19,5 @@ back@@
     | {x(0,T), total(S2), light(0), id(!New), $p[], @r},
         {x(1,T), total(S), light(1),id(!ID), $p[], @r}.
 
+// データ整形用
+{x(0,N), $p[], @r} :- int(N) | .
